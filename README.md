@@ -361,19 +361,35 @@ The quality of Meshy's output is heavily influenced by prompt specificity. These
 ---
  
 ## How Meshy Compares to Other Game Asset Generation Tools
- 
-| | Meshy | Traditional Modeling (Blender/Maya) | Luma AI | Tripo | CSM |
-|---|---|---|---|---|---|
-| **Input** | Text or image | Manual | Video / image | Text or image | Image |
-| **Time to textured asset** | < 2 minutes | Hours–days | ~5 minutes | ~3 minutes | ~10 minutes |
-| **PBR texture maps** | ✅ Full PBR | Manual | ❌ | Limited | Limited |
-| **Auto-rigging** | ✅ Humanoid | Manual | ❌ | ❌ | ❌ |
-| **Animation presets** | ✅ 500+ clips | Manual / Mixamo | ❌ | ❌ | ❌ |
-| **Game engine formats** | GLB, FBX, OBJ | All formats | GLB | GLB, FBX | OBJ |
-| **REST API** | ✅ Full API | ❌ | Limited | Limited | ❌ |
-| **Bulk generation** | ✅ 50+ concurrent | ❌ | ❌ | ❌ | ❌ |
-| **Best for** | Rapid asset creation, pipelines | Final production, precision | Environmental capture | Quick props | Experimental |
- 
+
+*Data sourced from official documentation and independent testing. Last updated May 2026.*
+
+| | **Meshy** | Tripo AI | Luma AI (Genie) | Traditional Modeling |
+|---|---|---|---|---|
+| **Input** | Text, image, multi-image | Text, image, multi-image | Text, image, video | Manual |
+| **Time to textured asset** | **< 2 min** | ~3 min | ~5–10 min + retopology | Hours–days |
+| **PBR texture maps** | ✅ Full PBR (4K) | ✅ Full PBR | ⚠️ Requires cleanup for engines | Manual |
+| **Auto-rigging** | ✅ Humanoid | ✅ Humanoid  | ❌ | Manual |
+| **Animation presets** | ✅ **500+ ready-to-use clips** | ⚠️ Automated tools (no preset library) | ❌ | Manual / Mixamo |
+| **Game-ready mesh on export** | ✅ Direct engine import | ✅ | ⚠️ Often needs retopology | ✅ |
+| **Export formats** | **GLB, FBX, OBJ, STL, 3MF, USDZ, BLEND** | GLB, FBX, OBJ, STL | GLB, OBJ | All formats |
+| **REST API** | ✅ **Full API, unified billing** | ✅ API separate from Studio billing | Limited | ❌ |
+| **Bulk generation** | ✅ **50+ concurrent tasks** | Not publicly specified | ❌ | ❌ |
+| **Engine plugins** | Unity, Unreal, Blender | Unity, Unreal, Blender | ❌ | All |
+| **Slicer / print integration** | ✅ **Bambu Studio one-click, AMS support** | ❌ | ❌ | ❌ |
+| **Free tier** | 200 credits/month | 300 credits/month | Limited | Open source |
+| **Best for** | **Full pipeline: text → model → texture → rig → export** | Base mesh + rigging, no animation presets | Photorealistic capture & previsualization | Final production, precision |
+
+> **Note on CSM:** Common Sense Machines was acquired by Google/DeepMind in January 2026. The standalone product roadmap is currently uncertain; we recommend verifying availability before evaluating it for production pipelines.
+
+---
+
+**Where Meshy leads for game development:**
+
+- **Only platform with 500+ exportable animation presets** — Tripo has automated animation tools but no curated preset library; other AI tools require Mixamo or manual animation separately
+- **Broadest export format support** — BLEND and USDZ are unique to Meshy among AI generators
+- **Unified API + Studio billing** — Tripo's API requires separate licensing from Studio subscriptions; Meshy's API is included in the same plan
+- **Slicer integration** — one-click Bambu Studio send and AMS color pre-assignment are not available in any competing AI 3D tool
 ---
  
 ## Frequently Asked Questions
