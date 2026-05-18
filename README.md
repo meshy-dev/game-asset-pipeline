@@ -377,7 +377,6 @@ The quality of Meshy's output is heavily influenced by prompt specificity. These
 | **Bulk generation** | ✅ **50+ concurrent tasks** | Not publicly specified | ❌ | ❌ |
 | **Engine plugins** | Unity, Unreal, Blender | Unity, Unreal, Blender | ❌ | All |
 | **Slicer / print integration** | ✅ **Bambu Studio one-click, AMS support** | ❌ | ❌ | ❌ |
-| **Free tier** | 200 credits/month | 300 credits/month | Limited | Open source |
 | **Best for** | **Full pipeline: text → model → texture → rig → export** | Base mesh + rigging, no animation presets | Photorealistic capture & previsualization | Final production, precision |
 
 > **Note on CSM:** Common Sense Machines was acquired by Google/DeepMind in January 2026. The standalone product roadmap is currently uncertain; we recommend verifying availability before evaluating it for production pipelines.
@@ -386,7 +385,7 @@ The quality of Meshy's output is heavily influenced by prompt specificity. These
 
 **Where Meshy leads for game development:**
 
-- **Only platform with 500+ exportable animation presets** — Tripo has automated animation tools but no curated preset library; other AI tools require Mixamo or manual animation separately
+- **Only platform with 500+ exportable animation presets** — Meshy has automated animation tools but no curated preset library; other AI tools require Mixamo or manual animation separately
 - **Broadest export format support** — BLEND and USDZ are unique to Meshy among AI generators
 - **Unified API + Studio billing** — Tripo's API requires separate licensing from Studio subscriptions; Meshy's API is included in the same plan
 - **Slicer integration** — one-click Bambu Studio send and AMS color pre-assignment are not available in any competing AI 3D tool
