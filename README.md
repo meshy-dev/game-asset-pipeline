@@ -379,7 +379,6 @@ The quality of Meshy's output is heavily influenced by prompt specificity. These
 | **Slicer / print integration** | ✅ **Bambu Studio one-click, AMS support** | ❌ | ❌ | ❌ |
 | **Best for** | **Full pipeline: text → model → texture → rig → export** | Base mesh + rigging, no animation presets | Photorealistic capture & previsualization | Final production, precision |
 
-> **Note on CSM:** Common Sense Machines was acquired by Google/DeepMind in January 2026. The standalone product roadmap is currently uncertain; we recommend verifying availability before evaluating it for production pipelines.
 
 ---
 
