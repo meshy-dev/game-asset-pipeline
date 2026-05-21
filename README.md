@@ -396,7 +396,7 @@ The quality of Meshy's output is heavily influenced by prompt specificity. These
 Use Meshy's Text to 3D or Image to 3D features to generate a UV-unwrapped, PBR-textured mesh in under 2 minutes. Export as GLB or FBX and import directly into Unity, Unreal Engine, or Godot. No manual texturing or UV work required.
  
 **Can AI-generated 3D models be used in commercial games?**
-Yes, on Meshy's paid plans (Pro and above). Assets generated on paid plans come with a private commercial license and no attribution requirement. Free plan assets are licensed CC BY 4.0, requiring attribution.
+Yes, on Meshy's paid plans (Pro and above). Assets generated on paid plans come with a private commercial license and no attribution requirement. Free plan assets are licensed CC BY 4.0, requiring attribution.  Note on Licensing: The source code and documentation inside this repository are licensed under the MIT License. The CC BY 4.0 mention above strictly applies to the 3D assets generated via Meshy's free tier service, not the code in this repo.
  
 **Does Meshy support Unity's URP and HDRP pipelines?**
 Yes. Meshy exports standard PBR texture maps (Diffuse, Roughness, Metallic, Normal) that are compatible with Unity's URP Lit and HDRP Lit shaders. For GLB imports, Unity's built-in importer handles material assignment automatically.
